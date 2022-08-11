@@ -15,6 +15,7 @@ btn.addEventListener("click", () => {
     heading.innerHTML = error1;
   } else {
     heading.innerHTML = "";
+    list.innerHTML = "";
     for (let i = 1; i <= 10; i++) {
       list.innerHTML += `<li>${inputValue} * ${i} = ${inputValue * i}</li>`;
     }
