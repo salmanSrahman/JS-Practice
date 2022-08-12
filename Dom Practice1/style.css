@@ -6,3 +6,11 @@
       justify-content: center;
       align-items: center;
 }
+
+.player__part {
+      margin-top: 50px;
+}
+
+.player2, .player2btn{
+      display: none;
+}
